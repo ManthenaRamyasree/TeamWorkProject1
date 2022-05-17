@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+.container{
+    width:100%;
+    display: flex;
+    background-color: #35424a;
+    height: 100px;
+    align-items: center;
+    border-bottom:5px solid rgb(233, 81, 21);
+}
+
+.container a{
+    text-decoration: none;
+    margin:0 25px;
+    color: white;
+}
+span{
+    color: rgb(233,81,21);
+    font-size: 30px;
+}
+.left {
+    width:100%;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 55px;
+    
+}
+
+
+.right {
+    width:100%;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.right a:hover{
+    color: rgb(233,81,21);
+}
+#content{
+    background-image: url('../img/showcase.jpg');
+    color: #fff;
+    height:400px;
+    padding-top: 10px;
+}
+#content .home_content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#content .home_content h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#content .home_content p{
+    font-size: 20px;
+}
+#newsletter .news_content{
+    background-color: #35424a;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+#newsletter input[type="text"]{
+    padding: 5px;
+    width: 200px;
+}
+#newsletter button{
+    background-color: rgb(233, 81, 21);
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+
+footer{
+    background-color: rgb(233, 81, 21);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+#about_content{
+    display: flex;
+    padding: 0 80px;
+}
+#about_content p{
+    font-size: 16px;
+}
+#about_content .about_right{
+background-color: #35424a;
+color: #fff;
+margin: 50px;
+padding: 20px;
+height: fit-content;
+width: fit-content;
+}
+
+#about_content .p_content{
+    background-color: #35424a;
+    color: #fff;
+    padding:10px;
+}
+#service{
+display: flex;
+padding: 0 80px;
+}
+.service_content{
+    background-color: #e6e6e6;
+    padding:10px;
+    margin-bottom: 5px;
+}
+.service_right{
+    background-color: #35424a;
+    color: #fff;
+    margin: 50px;
+padding: 20px;
+height: fit-content;
+width: fit-content;
+}
+.service_right label{
+    display: block;
+}
+.service_right button{
+    background-color: rgb(233, 81, 21);
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    padding: 5px;
+}
+#items ul{
+    display:flex;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+#items ul li{
+    padding: 30px;
+}
+
+
+
